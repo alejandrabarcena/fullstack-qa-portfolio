@@ -1,38 +1,25 @@
-/* ----------- ESTILOS PERSONALIZADOS CSS ----------- */
-
-/* Fondo suave para todo el sitio */
 body {
   background-color: #f9fafb;
-  transition: background-color 0.3s ease-in-out;
 }
 
-/* Estilo para el título principal */
 h2 {
-  color: #9333ea; /* Morado Tailwind */
+  color: #9333ea;
   transition: color 0.3s ease-in-out;
 }
 
-/* Hover suave para título */
 h2:hover {
-  color: #6b21a8; /* Morado más oscuro */
+  color: #6b21a8;
 }
 
-/* Estilo de links personalizados */
 a {
   transition: color 0.2s ease-in-out;
 }
 
-/* Enlaces en navbar (mejorando Tailwind) */
-nav a {
-  font-weight: 500;
-}
-
 nav a:hover {
-  color: #2563eb; /* Azul Tailwind */
+  color: #2563eb;
 }
 
-/* Footer con detalle sutil */
 footer {
-  border-top: 1px solid #e5e7eb; /* Gris claro */
+  border-top: 1px solid #e5e7eb;
   letter-spacing: 0.3px;
 }
