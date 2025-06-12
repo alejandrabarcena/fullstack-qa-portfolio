@@ -3,72 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contacto | Alejandra Bárcena</title>
+  <title>Portafolio | Alejandra Bárcena</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css" />
 </head>
-
-<body class="bg-gray-100 text-gray-800 font-sans">
+<body class="bg-gray-100 flex flex-col min-h-screen">
 
   <!-- Navbar -->
   <nav class="bg-white shadow-md px-4 py-3 sticky top-0 z-10">
     <div class="max-w-5xl mx-auto flex justify-between items-center">
       <h1 class="text-xl font-bold text-blue-600">Alejandra Bárcena</h1>
       <ul class="hidden md:flex space-x-6 text-sm">
-        <li><a href="index.html" class="hover:text-blue-600 font-medium">Inicio</a></li>
-        <li><a href="projects.html" class="hover:text-blue-600 font-medium">Proyectos</a></li>
-        <li><a href="contact.html" class="text-blue-600 font-semibold">Contacto</a></li>
-        <li><a href="qa.html" class="hover:text-blue-600 font-medium">QA</a></li>
+        <li><a href="index.html" class="text-gray-700 hover:text-blue-600 font-medium">Inicio</a></li>
+        <li><a href="projects.html" class="text-gray-700 hover:text-blue-600 font-medium">Proyectos</a></li>
+        <li><a href="contact.html" class="text-gray-700 hover:text-blue-600 font-medium">Contacto</a></li>
+        <li><a href="qa.html" class="text-gray-700 hover:text-blue-600 font-medium">QA</a></li>
       </ul>
     </div>
   </nav>
 
-  <!-- Formulario de contacto -->
-  <main class="max-w-2xl mx-auto px-4 py-12">
-    <h2 class="text-3xl font-bold text-purple-700 text-center mb-8">Contáctame</h2>
-
-    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-      <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Nombre</label>
-        <input id="name" type="text" required placeholder="Tu nombre"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring focus:ring-purple-300" />
-      </div>
-
-      <div class="mb-4">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Correo</label>
-        <input id="email" type="email" required placeholder="tucorreo@ejemplo.com"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring focus:ring-purple-300" />
-      </div>
-
-      <div class="mb-6">
-        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Mensaje</label>
-        <textarea id="message" rows="5" required placeholder="Escribe tu mensaje..."
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring focus:ring-purple-300"></textarea>
-      </div>
-
-      <div class="flex items-center justify-between">
-        <button type="submit"
-          class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none transition-all">
-          Enviar ✉️
-        </button>
-      </div>
-    </form>
-
-    <!-- Datos de contacto -->
-    <div class="text-sm text-gray-700 mt-6">
-      <p><strong>Correo personal:</strong> <a href="mailto:zukunftswellefanzine@proton.me" class="text-purple-600 hover:underline">zukunftswellefanzine@proton.me</a></p>
-      <p><strong>Correo laboral:</strong> <a href="mailto:alejandrabarcena@omicron.tv" class="text-purple-600 hover:underline">alejandrabarcena@omicron.tv</a></p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/alejandrabarcena" target="_blank" class="text-purple-600 hover:underline">github.com/alejandrabarcena</a></p>
-      <p><strong>WhatsApp:</strong> <a href="https://wa.me/5215660853249" class="text-green-600 hover:underline">+52 1 56 6085 3249</a></p>
-      <p><strong>Ubicación:</strong> Coworking Condesa Openhub, CDMX</p>
-    </div>
+  <!-- Contenido principal -->
+  <main class="flex-grow container mx-auto px-4 py-10 max-w-3xl">
+    <section class="bg-white rounded-lg shadow-md p-6 text-center">
+      <h2 class="text-4xl font-bold mb-4">Hola, soy Alejandra 👩‍💻</h2>
+      <p class="text-gray-700 text-lg">
+        Full-Stack Developer, QA Tester y UX/UI Designer apasionada por construir soluciones creativas, funcionales y accesibles. Bienvenid@ a mi universo digital. 💜✨
+      </p>
+    </section>
   </main>
 
   <!-- Footer -->
-  <footer class="bg-white text-center text-gray-500 text-sm py-4 shadow-inner">
-    &copy; 2025 Mtra. Alejandra Bárcena. Todos los derechos reservados.
+  <footer class="bg-white text-center text-gray-600 text-sm py-4 shadow-inner">
+    &copy; 2025 Alejandra Bárcena. Todos los derechos reservados.
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
+
