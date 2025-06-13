@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QA Testing | Alejandra Bárcena</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md px-4 py-3 sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600">Alejandra Bárcena</h1>
+      <ul class="hidden md:flex space-x-6 text-sm">
+        <li><a href="index.html" class="hover:text-blue-600 font-medium">Inicio</a></li>
+        <li><a href="projects.html" class="hover:text-blue-600 font-medium">Proyectos</a></li>
+        <li><a href="contact.html" class="hover:text-blue-600 font-medium">Contacto</a></li>
+        <li><a href="qa.html" class="text-blue-600 font-semibold">QA</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="max-w-5xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-bold text-purple-700 text-center mb-10">Herramientas de QA</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Jest -->
+      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" alt="Jest" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-red-600 mb-2">Jest</h3>
+        <p class="text-gray-600 mb-3 text-sm">Framework para pruebas unitarias en proyectos React y Node.js.</p>
+        <p class="text-xs">Aplicado en: Luminous To-Do List (validación de funciones).</p>
+      </div>
+
+      <!-- Cypress -->
+      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cypressio/cypressio-original.svg" alt="Cypress" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-green-600 mb-2">Cypress</h3>
+        <p class="text-gray-600 mb-3 text-sm">Pruebas End-to-End para automatizar flujos en interfaces.</p>
+        <p class="text-xs">Aplicado en: Green Nest (pruebas de interacción).</p>
+      </div>
+
+      <!-- Postman -->
+      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-orange-500 mb-2">Postman</h3>
+        <p class="text-gray-600 mb-3 text-sm">Herramienta para testear APIs RESTful de forma visual.</p>
+        <p class="text-xs">Aplicado en: Green Nest (consultas GET/POST).</p>
+      </div>
+
+      <!-- JMeter -->
+      <div class="bg-white rounded-lg shadow-md p-6 text-center">
+        <img src="https://jmeter.apache.org/images/jmeter.svg" alt="JMeter" class="w-16 h-16 mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-purple-700 mb-2">JMeter</h3>
+        <p class="text-gray-600 mb-3 text-sm">Simulación de carga y rendimiento para servidores y APIs.</p>
+        <p class="text-xs">Aplicado en: backend de Luminous To-Do List.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white text-center text-gray-500 text-sm py-4 shadow-inner">
+    &copy; 2025 Mtra. Alejandra Bárcena. Todos los derechos reservados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
