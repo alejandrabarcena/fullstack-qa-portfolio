@@ -15,5 +15,4 @@ Este es mi portafolio profesional como Desarrolladora Full Stack y QA. Está con
 - TailwindCSS (vía CDN)
 - JavaScript Vanilla
 
-## 📁 Estructura
 
